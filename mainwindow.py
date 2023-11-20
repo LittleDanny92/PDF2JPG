@@ -77,7 +77,7 @@ class MainWindow(QtWidgets.QMainWindow):
                 self.info_msg_box.setText("The PDF was successfully converted.")
                 self.info_msg_box.exec()
         else:
-            self.info_msg_box.setText("The file is not the PDF.")
+            self.info_msg_box.setText("The PDF file was not chosen.")
             self.info_msg_box.exec()
     
     def save_jpg(self, jpgs):
